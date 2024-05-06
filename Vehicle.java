@@ -3,12 +3,12 @@ private String myBrand, myModel;
 public Vehicle() {
 myBrand = "unknown";
 myModel = "unknown";
-}
+}    
 public Vehicle(String brand, String model) {
 setBrand(brand);
 setModel(model);
 }
-public String getBrand() {
+public String getBrand()  {
 return myBrand;
 }
 public String getModel() {
